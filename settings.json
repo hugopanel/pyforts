@@ -1,0 +1,37 @@
+{
+  "profile": {
+    "username": "Hugo le bg"
+  },
+  "mods": {
+    "@comment mods": [
+      "Vous pouvez ajouter vos mods ici. Ils seront chargés automatiquement.",
+      "Notez que les serveurs peuvent refuser votre connexion si vous possédez des mods tiers."
+    ],
+    "mods": [
+      "base_content"
+    ]
+  },
+  "game": {
+    "play_introduction": false,
+    "@comment play_introduction": "Si 'true', joue la cinématique d'introduction au lancement du jeu.",
+    "header_size": 4096,
+    "@comment header_size": [
+      "Taille des messages envoyés par/vers le serveur. Ne changez ce paramètres que si vous",
+      "souhaitez rejoindre un serveur moddé qui exige des messages plus longs."
+    ],
+    "default_server_ip": "136.244.112.204",
+    "default_server_port": 4408
+  },
+  "graphics": {
+    "@comment_window_width;@comment_window_height": "Le ratio window_width/window_height doit valoir 16/9.",
+    "window_width": 1280,
+    "window_height": 720
+  },
+  "audio": {
+    "play_music": false,
+    "play_sound_effects": true
+  },
+  "debug": {
+    "verbose_mode": false
+  }
+}
