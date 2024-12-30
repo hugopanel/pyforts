@@ -12,13 +12,13 @@ This repository is a copy of the original, that was hosted on Azure Repos.
 
 Construct the ultimate fort to shield your reactor core and deploy powerful weapons to take down your opponent's! PyForts is an exciting online multiplayer real-time strategy game where you manage resources to build, battle, and dominate.<br/>The game supports up to two players simultaneously, with additional slots for spectators to watch the action unfold in real-time.
 
-## Key points
+## Key points
 
 Physics are simulated on the client and server simultaneously, for fast and accurate renders on all clients.
 
 PyForts supports modding with a built-in plug-in system. In fact, the base content is a mod itself that can be modified! Players can also join modded servers.<br/>Server owners can choose to prevent modded clients from joining, or require mods to be installed.<br/>You can find a mod template to create your own in the `/mods/mod_template/` folder.
 
-## Code
+## Code
 
 The client code is located in `client.py`. The server code is located in `server.py`. Both files use the `game.py` file for the game logic.
 
